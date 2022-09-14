@@ -19,6 +19,12 @@ public class Google {
 		driver.get(url);
 		
 		
+		System.out.println("Getting URL");
+		System.out.println("Getting URL");
+		System.out.println("Getting URL");
+		System.out.println("Getting URL");
+		
+		
 		WebElement searchBox= driver.findElement(By.name("q"));
 		searchBox.sendKeys("Fresco Play");
 		searchBox.sendKeys(Keys.ENTER);
